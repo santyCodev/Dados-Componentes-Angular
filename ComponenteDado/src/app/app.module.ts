@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DadoComponent } from './components/dado/dado.component';
+import { DadoHijoComponent } from './components/dado-hijo/dado-hijo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DadoComponent
+    DadoComponent,
+    DadoHijoComponent
   ],
   imports: [
     BrowserModule
